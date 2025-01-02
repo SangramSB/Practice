@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Download PDF</title>
+</head>
+<body>
+  <h3>Your PDF is ready for download!</h3>
+  <a id="download-link" href="#" download>Click here to download the PDF</a>
+
+  <script>
+    // This is the part where we would pass the actual PDF file URL from the add-in
+    const fileUrl = "https://example.com/path/to/ExcelExport.pdf";  // Replace with your actual URL
+    
+    // Setting the href for the download link
+    document.getElementById("download-link").href = fileUrl;
+  </script>
+</body>
+</html>
